@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign-up</title>
+</head>
+<body>
+    <aside>
+        <div class="logo-container">
+            <img class="logo" src="odin-.png" alt="">
+            <div>Odin</div>
+        </div>
+       <div class="credit">Photo by <a href="https://unsplash.com/fr/@haliewestphoto">hailie west</a> on <a href="https://unsplash.com"> unsplash</a></div>
+    </aside>
+    <main>
+        <header>
+        <div class="text">
+        <div><h2>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</h2></div>
+        <div><h2>Sign up now to get started.</h2></div><br><br>
+        <div><h2>You know you want to.</h2></div>
+    </div>
+        </header>
+    
+        <form action="" method="get">
+            <div class="form">
+            <fieldset>
+                <legend>Let's do this!</legend>
+                <div class="information">
+                    <div class="column1">
+                        <div><label for="Firstname">First Name</label> <input type="text"id="Firstname"placeholder="Jhon" required></div>
+                        <div><label for="Email">Email</label> <input type="email"id="Email"placeholder="Jhonmorales@exemple.com" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required></div>
+                        <div><label for="Password">Password</label> <input type="password"id="Password"placeholder="Your Password" required></div>
+                        <div class="error"></div>
+                    </div>
+                    <div class="column2">
+                        <div><label for="Lastname">Last Name</label> <input type="text"id="Lastname"placeholder="Morales" required></div>
+                        <div><label for="number">Phone Number</label> <input type="text"id="number"placeholder="Enter Your Phone Number" pattern="[0-9]+" required></div>
+                        <div><label for="ConfirmPassword">Confirm Password </label> <input type="password"id="ConfirmPassword"placeholder="Confirm Your Password" required></div>
+                    </div>
+                </div>
+            </div>
+            </fieldset>
+            <footer>
+                <button type="submit">Create Account</button>
+                <div>already have an account? <a href="">log in</a></div>
+            </footer>
+        </form>
+    
+    </main>
+<script src="script.js"></script>
+</body>
+</html>
